@@ -1,0 +1,592 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	padding: 0;
+	margin: 0;
+
+	overflow-x: hidden;
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;  
+}
+
+@keyframes fadeIn{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+
+
+
+
+.addtocart img{
+  height: 25px;
+  
+}
+
+
+.addtocart span{
+  color: #fff;
+  font-size: 12px;
+  
+}
+
+
+.addtocart strong{
+  color: #ff8500;
+  
+}
+
+
+
+
+.aboutus{
+  text-align: justify; 
+  color: #585858; 
+  line-height: 30px; 
+  font-size: 16px;
+}
+
+.headus{
+ background: #fff;
+ color: #ff3a5f; 
+ box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+ font-size: 18px; 
+ padding: 8px 20px 8px 8px;  
+ border-radius: 25px; 
+ font-family: 'Lemonada';
+}
+
+.headus2{
+  background: #fff;
+  color: #e84118; 
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  font-size: 18px; 
+  padding: 8px 20px 8px 8px;  
+  border-radius: 25px; 
+  font-family: 'Lemonada';
+}
+
+
+.headus3{
+  background: #fff;
+  color: #273c75; 
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  font-size: 18px; 
+  padding: 8px 20px 8px 8px; 
+  border-radius: 25px; 
+  font-family: 'Lemonada';
+}
+
+
+.headus4{
+  background: #fff;
+  color: #273c75; 
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  font-size: 18px; 
+  padding: 8px 30px; 
+  border-radius: 25px; 
+  font-family: 'Lemonada';
+}
+
+
+
+.headus5{
+  background: #fff;
+  color: #ff3a5f; 
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  font-size: 18px; 
+  padding: 8px 30px; 
+  border-radius: 25px; 
+  font-family: 'Lemonada';
+}
+
+
+
+#About-us{
+  background: url(style.css); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position:all;
+}
+
+
+
+
+@keyframes fadetop{
+  from{ opacity: 0;}
+  to{ opacity:1;}
+}
+
+
+
+
+ 
+
+/*.banner{
+   background:linear-gradient(0deg, rgba(14, 124, 63, 0.8), rgba(14, 124, 63, 0.8)), url(img/banner.jpg); 
+   background-size: cover; 
+   padding: 100px 20px;
+
+}
+*/
+
+
+
+
+
+#cartimg{
+  height: 50px;
+}
+
+.carthead{
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+}
+
+.cartbody{
+  font-size: 15px;
+}
+
+.pdelete{
+  color: #000;
+}
+
+.pdelete:hover{
+  color: red;
+}
+
+.qtycart{
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+}
+
+
+.cartshop{
+  text-decoration: none;
+  font-size: 12px;
+  color: #000;
+  border:1px solid lightgray;
+  padding: 5px 8px;
+  transition: 0.4s;
+}
+
+.cartshop:hover{
+  color: #fff;
+  background-color: #ff3a5f;
+  text-decoration: none;
+  border: 1px solid #ff3a5f;
+
+}
+
+.subtotal{
+  font-size: 13px;
+}
+
+#total{
+  background-color: #fff; 
+  padding: 20px; 
+}
+
+
+
+.proceed{
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  background-color: #ff3a5f;
+  padding: 12px 10px;
+  transition: 0.4s;
+}
+
+.proceed:hover{
+  color: #fff;
+  text-decoration: none;
+  background-color: #ff3a5f;
+
+}
+
+
+.log{
+  font-size: 15px;
+  border: none;
+  border-radius: 0px;
+  border: 1px solid lightgray;
+  height:45px;
+  padding: 0 20px;
+}
+.log:focus{
+  box-shadow: none;
+  border: 1px solid #585858;
+}
+
+
+
+.logs{
+  font-size: 15px;
+  border: none;
+  border-radius: 0px;
+  border: 1px solid lightgray;
+}
+.logs:focus{
+  box-shadow: none;
+  border-color: #585858;
+}
+
+
+#signbtn{
+
+  border: none;
+  padding: 8px 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  background-color: #ff3a5f;
+
+}
+#signbtn:hover{
+
+  background: #000;
+  color: #fff;
+
+}
+
+
+
+#signbtns{
+  margin-top: 20px;
+  border: none;
+  padding: 8px 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  background-color: #0e7c3f;
+  border-radius: 5px;
+
+
+}
+#signbtns:hover{
+
+  background: #4cd137;
+  color: #fff;
+
+}
+
+
+#myBtns {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 300px; /* Place the button at the bottom of the page */
+  right: 0px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color: #fff; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 8px 12px; /* Some padding */
+  font-size: 10px; /* Increase font size */
+  line-height: 20px;
+  transition: 0.5s;
+  background: #ff8500;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#myBtns:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.carttitle{
+  font-size: 13px;
+}
+
+
+
+.subtotal{
+  font-size: 14px;
+  color: darkred;
+}
+
+
+#cartborder{
+  border-bottom: 1px solid lightgray;
+}
+
+#cartimg{
+}
+
+.total{
+  font-size: 16px;
+  color: #fff;
+}
+
+.orders{
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+
+}
+
+.orders:hover{
+  text-decoration: none;
+}
+
+.detailsabout{
+  font-size: 13px;
+}
+
+#mobilemenu{
+  z-index: 980; 
+  background: #f8f8f8; 
+  border-top: 2px solid #5a4099;
+  padding: 10px;
+
+}
+.menubar{
+ border-bottom: 1px dashed #e1e1e1; 
+ margin-top: -5px;
+}
+
+
+
+.floatingNav{
+  box-shadow: 0 1px 5px -2px #999;
+  border-bottom: none;
+  
+}
+
+
+
+
+
+#mobilemenuoff{
+  padding: 0; 
+  width: 250px;
+  background: #000;
+  transition: 0.9s;
+}
+
+
+
+.breaknews{
+  background: rgb(0,0,0,0.8); 
+  border-top: 1px solid #0e7c3f;
+}
+
+
+
+
+.a{
+  background: #fff; 
+  border-top: 4px solid #5a4099
+}
+
+.c{
+  background: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+
+#load{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image:  url(style.css); 
+  background-size:250px;
+}
+
+
+
+#searchbarss{
+  margin-top: 15px;
+}
+
+#desktopmenu{
+  background: #fff;
+  padding: 0px; 
+  border-bottom: 1px solid lightgray;
+}
+
+
+.viewproducts{
+  color: #fff;
+  padding: 7px 15px;
+  background-color: #000;
+  border-radius: 3px;
+}
+
+.viewproducts:hover{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.social a{
+  color: #fff;
+  background-color: #ff8500;
+  padding: 10px 15px;
+  margin-right: 5px;
+  font-size: 13px;
+}
+
+.social a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+@media(max-width: 768px){
+
+
+
+
+
+#productimg{
+  height: 120px;
+}
+
+.headtitle{
+  font-size: 18px;
+}
+
+.cartshop{
+  font-size: 10px;
+}
+
+.cartbody{
+  font-size: 11px;
+}
+
+#logo{
+  height: 40px;
+}
+
+
+.topheader{
+  background-color: #000;
+  border-bottom: none;
+
+}
+
+
+.productdiv{
+  border-right: none;
+}
+
+
+
+
+
+}
+
+
+
+.sidenav li{
+  list-style-type: none;
+  padding: 15px 15px;
+  border-bottom: 1px solid #f4f4f4;
+
+}
+
+.sidenav li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #414141;
+  display: block;
+  transition: 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+}
+
+.sidenav li a:hover{
+  color: #ff3a5f;
+  text-decoration: none;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 20px;
+  margin-left: 50px;
+
+}
+
+
+.overlay {
+  position: absolute;
+  transition: .5s;
+  left: 0;
+  right: 0;
+  z-index:2;
+  
+}
+
+.overlay span{
+  border:none;
+  background:#fd5200;
+  color: #fff;
+  outline: none;
+  z-index:2;
+  padding:2px 8px;
+  border-radius:5px;
+}
+.stock_in{	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";	color:green !important;	font-size:18px !important; 	font-weight: 700; 	line-height: 20px;}.stock_out{	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";	color:red !important;	font-size:18px !important; 	font-weight: 700; 	line-height: 20px;}
+.product_price{	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";	font-size: 22px !important; 	font-weight: 700; 	line-height: 20px; 	color: #cc3333 !important;}
+.product_price_del{	
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 22px !important;
+    font-weight: 700;
+    line-height: 20px;
+    color: #9e9e9e !important;
+    
+}
+
+
+
+.footer-special i {
+	font-size: 25px;
+	color: #000;
+}
+.footer-special {
+	margin-top: 10px;
+}
+.footer-special b {
+	color: #000;
+	font-size: 13px;
+}
+.footer-special span {
+	color: #414141;
+	font-size: 12px;
+}
+.product-ads-content{
+	background: #f2f3f7 !important;
+}
+
+.bg-light {
+    background-color: #e5e5e5!important;
+}
